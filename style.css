@@ -1,0 +1,320 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body:hover {
+  cursor: default;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#cursor {
+  z-index: 9;
+  position: fixed;
+  border-radius: 20px;
+  height: 30px;
+  width: 30px;
+  /* transition: all linear 0.1s; */
+  mix-blend-mode: difference;
+  background-color: greenyellow;
+}
+
+.main {
+  background-color: white;
+  margin-top: 0px;
+  padding: 0px 100px;
+}
+.nav {
+  z-index: 999;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav li {
+  z-index: 999;
+  color: black;
+  padding: 20px;
+  margin: 0px 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.page1 {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#loder {
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  /* border-bottom: 2px solid black; */
+}
+#loader2 {
+  text-align: center;
+  width: 100%;
+  /* border-bottom: 2px solid black; */
+  overflow: hidden;
+}
+.page1 h1 {
+  font-size: 100px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#para {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 50px 450px;
+}
+#vid {
+  margin-top: 100px;
+  height: 500px;
+  width: 700px;
+}
+.page2 {
+  display: flex;
+  flex-direction: row;
+}
+.upper {
+  margin-bottom: 250px;
+  color: white;
+}
+#page2-left {
+  color: white;
+  height: 70vh;
+  width: 50vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+hr {
+  margin: 20px 0px;
+  width: 90%;
+  opacity: 0;
+}
+.para2 {
+  margin-right: 80px;
+}
+.page2-head {
+  margin: 10px 0px;
+}
+#page2-right {
+  margin-left: 100px;
+  margin-top: 300px;
+  height: 60vh;
+  background-image: url(IMG_20220602_181402.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40vw;
+  opacity: 0;
+}
+
+.page2-head {
+  opacity: 0;
+}
+.para2 {
+  opacity: 0;
+}
+#divide {
+  text-align: center;
+  width: 0%;
+}
+#divide2 {
+  text-align: center;
+  height: 2px;
+  background-color: white;
+  width: 0%;
+}
+.page3-left1 {
+    transform: translateY(50px);
+  width: 40vw;
+  font-size: 120px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page3-left2 {
+  opacity: 0;
+  margin-top: 400px;
+  width: 50vw;
+  height: 60vh;
+  /* background-image: url(Untitled\ design.png); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+.page3-right2 {
+  opacity: 0;
+  margin-left: 200px;
+  width: 50vw;
+  /* background-color: aqua; */
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+.page3-right22 {
+  opacity: 0;
+  /* background-image: url(IMG_20220509_183842.jpg); */
+  margin-left: 300px;
+  width: 30vw;
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.page3-left22 {
+  opacity: 0;
+  margin-top: 300px;
+  margin-left: 0px;
+  width: 40vw;
+  /* background-color: red; */
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.page4 {
+  display: flex;
+  flex-direction: row;
+}
+#page4-head1 {
+  color: black;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  transition: all ease 0.5s;
+}
+#page4-head1:hover {
+  transform: translateY(-120px);
+  /* color: rgb(76, 187, 76); */
+}
+#page4-head2:hover {
+  /* color: rgb(76, 187, 76); */
+  transform: translateY(-120px);
+}
+#page4-head2 {
+  color: black;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  transition: all ease 0.5s;
+}
+.page5 {
+  /* background-color: rgb(196, 25, 25); */
+  height: auto;
+  white-space: nowrap;
+}
+.try, .try2{
+    z-index: 99;
+}
+.page5 .try img {
+    position: relative;
+  height: 274px;
+  margin-top: 50px;
+
+}
+#btn:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  /* box-shadow: 0 0 20px white; */
+  cursor: pointer;
+}
+footer{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 100px;
+    padding-top: 10px;
+}
+.foot-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    margin: 120px 120px 0px 120px;
+    /* background-color: blue; */
+}
+.elem{
+    background-color: black;
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    color: white;
+    border-radius: 50%;
+}
+.elem{
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-div h1{
+    font-size: 45px;
+    font-weight: 300;
+}
+.email-div{
+    width: 50%;
+    /* background-color: aqua; */
+    margin: 0px 50px 0px 120px;
+}
+.email-div2{
+    text-align: right;
+    width: 50%;
+    /* background-color: aqua; */
+    margin: 0px 150px 0px 50px;
+}
+.email-div input{
+    z-index: 20;
+    padding: 10px;
+    margin-top: 20px;
+   height: 35px;
+   width: 270px;
+   background-color: white;
+   border: 0px;
+   border-bottom: 2px solid black;
+}
+.email-div input::placeholder{
+    font-size: 20px;
+}
+.elem:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 0.3s;
+}
+.email-div h2, .email-div2 h2{
+    font-weight: 400;
+}
+.email-div2 p{
+    z-index: 10;
+}
+#Subscribe{
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+}
